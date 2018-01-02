@@ -14,3 +14,30 @@ header {
 nav {
   display: flex;
 }
+
+.container {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.left {
+  display: flex;
+  width: 630px;
+  /* border: 1px solid black; */
+}
+
+.middle {
+  display: flex;
+  width: 300px;
+  /* border: 1px solid black; */
+}
+
+.right {
+  display: flex;
+  width: 240px;
+  /* border: 1px solid black; */
+}
+
+div {
+  border: 1px solid black;
+}
