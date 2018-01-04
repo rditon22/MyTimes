@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  display: block;
 }
 
 header {
@@ -56,28 +57,25 @@ nav span {
 }
 
 .column {
+  flex-direction: column;
+  display: flex;
   margin-right: 32px;
 }
 
 .left {
-  flex-direction: column;
-  display: flex;
   width: 630px;
 }
 
 .middle {
-  flex-direction: column;
-  display: flex;
   width: 300px;
 }
 
 .right {
-  flex-direction: column;
-  display: flex;
   width: 240px;
 }
 
 div {
+  display: block;
   border: 1px solid black;
 }
 
@@ -114,19 +112,18 @@ div {
 
 .stories {
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
   justify-content: space-between;
 }
 
 .stories .text {
-  /* height: 200px; */
+  height: 150px;
 }
 
 .story {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  /* margin-right: 50px; */
+  width: 300px;
 }
 
 h2 {
@@ -166,11 +163,21 @@ footer {
   font-size: 12px;
 }
 
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
 .mytimes {
+  display: inline-block;
   font-family: Georgia;
   font-size: 16px;
   padding-right: 25px;
   font-weight: bold;
   color: white;
   border-right: 2px solid white;
+}
+
+.copyright {
+  padding-top: 10px;
 }
