@@ -14,7 +14,6 @@ header {
   font-family: Verdana;
   font-size: 14px;
   color: MediumAquamarine;
-  border-bottom: 1px solid black;
   z-index: 1;
 }
 
@@ -33,7 +32,6 @@ header {
 
 nav {
   align-items: center;
-  border: 1px solid black;
   display: flex;
   padding-right: 40px;
 }
@@ -53,13 +51,13 @@ nav span {
   font-size: 17px;
   color: black;
   padding-top: 115px
-  /* border: 1px solid black; */
 }
 
 .column {
   flex-direction: column;
   display: flex;
   margin-right: 32px;
+  margin-bottom: 50px;
 }
 
 .left {
@@ -76,7 +74,6 @@ nav span {
 
 div {
   display: block;
-  border: 1px solid black;
 }
 
 
@@ -116,8 +113,8 @@ div {
   justify-content: space-between;
 }
 
-.stories .text {
-  height: 150px;
+.content {
+  height: 250px;
 }
 
 .story {
@@ -180,4 +177,5 @@ footer nav {
 
 .copyright {
   padding-top: 10px;
+  padding-right: 45px;
 }
