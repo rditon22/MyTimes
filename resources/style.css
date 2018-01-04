@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -17,9 +21,12 @@ header {
   display: flex;
   align-items: center;
   padding-left: 30px;
+  flex-grow: 1;
 }
 
 .logo img {
+  width: 70px;
+  height: 60px;
   margin-right: 12px;
 }
 
@@ -27,6 +34,7 @@ nav {
   align-items: center;
   border: 1px solid black;
   display: flex;
+  padding-right: 40px;
 }
 
 a {
@@ -103,7 +111,7 @@ div {
 
 .story {
   display: flex;
-  flex-direction: column;
+  flex-flow; row wrap;
 }
 
 h2 {
